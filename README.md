@@ -7,5 +7,8 @@ http://www.html5rocks.com/en/tutorials/file/dndfiles/
 Usage
 -----
 
-$('#file-input').imagePreview(); // Inserts the preview image before the file input
-$('#file-input').imagePreview({'selector':'#thumb-container'}); // Custom preview container
+   // Inserts the preview image before the file input
+   $('#file-input').imagePreview();
+   
+   // Custom preview container
+   $('#file-input').imagePreview({'selector':'#thumb-container'});
